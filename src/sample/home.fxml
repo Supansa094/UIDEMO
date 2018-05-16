@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="301.0" style="-fx-background-color: #f06292;">
+         <children>
+            <FontAwesomeIconView fill="#5d64cf" glyphName="SMIRK_CAT" layoutX="47.0" layoutY="206.0" size="20" text="Welome to MIT-SAIYAI" wrappingWidth="228.0" />
+            <Label layoutX="46.0" layoutY="299.0" prefHeight="17.0" prefWidth="209.0" text="CopyRight@Supansa">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView glyphName="FLASK" layoutX="115.0" layoutY="108.0" size="100" />
+         </children>
+      </AnchorPane>
+      <JFXTextField focusColor="#f06292" labelFloat="true" layoutX="392.0" layoutY="102.0" prefHeight="53.0" prefWidth="135.0" promptText="username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField focusColor="#f06292" labelFloat="true" layoutX="386.0" layoutY="175.0" promptText="password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXPasswordField>
+      <FontAwesomeIconView glyphName="USER" layoutX="359.0" layoutY="136.0" size="25" wrappingWidth="16.428571701049805" />
+      <FontAwesomeIconView glyphName="LOCK" layoutX="359.0" layoutY="198.0" size="25" />
+   </children>
+</AnchorPane>
